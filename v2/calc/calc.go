@@ -1,6 +1,6 @@
 package calc
 
-func AddFunc(args ...int) int {
+func Add(args ...int) int {
 	s := 0
 	for _, v := range args {
 		s += v
